@@ -21,7 +21,7 @@ st.markdown("""
 st.markdown('<div class="title">House Price Prediction</div>', unsafe_allow_html=True)
 
 # Display the image after the title using the new 'use_container_width' parameter
-st.image('houses.svg', use_container_width=True)  # Adjust path as needed
+st.image('houses.png', use_container_width=True)  # Adjust path as needed
 
 # Create two columns for sliders and the select slider
 col1, col2 = st.columns(2)
